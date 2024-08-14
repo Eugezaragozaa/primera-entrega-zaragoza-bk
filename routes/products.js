@@ -1,8 +1,9 @@
-const express = require('express');
-const router = express.Router();
-const ProductManager = require('../managers/ProductManager');
+import express from 'express';
+import ProductManager from '../managers/ProductManager.js';
 
-const productManager = new ProductManager();
+
+const router = express.Router();
+const productManager= new ProductManager();
 
 // Ruta para obtener todos los productos
 router.get('/', (req, res) => {
@@ -44,4 +45,4 @@ router.delete('/:pid', (req, res) => {
     res.status(204).send();
 });
 
-module.exports = router;
+export default router;

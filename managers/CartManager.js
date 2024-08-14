@@ -1,8 +1,12 @@
-const fs = require('fs');
-const path = require('path');
-const ProductManager = require('./ProductManager');
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+import ProductManager from './ProductManager.js';
 
-class ProductCar {
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+class CartManager {
     constructor() {
         this.rutaArchivo = path.join(__dirname, '../data/carts.json');
         this.carts = [];
@@ -62,4 +66,4 @@ class ProductCar {
     }
 }
 
-module.exports = ProductCar;
+export default CartManager;

@@ -1,0 +1,83 @@
+[
+  {
+    "title": "Sweater Isabella",
+    "description": "sweater de lana",
+    "price": 15000,
+    "thumbnail": "ruta/sweater01.jpg",
+    "code": "C001",
+    "stock": 100,
+    "id": 1
+  },
+  {
+    "title": "Sweater Amalia",
+    "description": "sweater de lana abombado",
+    "price": 15000,
+    "thumbnail": "ruta/sweater02.jpg",
+    "code": "C002",
+    "stock": 100,
+    "id": 2
+  },
+  {
+    "title": "Sweater Carlota",
+    "description": "sweater de lana y brillos",
+    "price": 15000,
+    "thumbnail": "ruta/sweater03.jpg",
+    "code": "C003",
+    "stock": 100,
+    "id": 3
+  },
+  {
+    "title": "Remera Cerezo",
+    "description": "remera de algodon batick",
+    "price": 10000,
+    "thumbnail": "ruta/remera01.jpg",
+    "code": "C004",
+    "stock": 100,
+    "id": 4
+  },
+  {
+    "title": "Remera Arrayan",
+    "description": "remera de algodon strass",
+    "price": 10000,
+    "thumbnail": "ruta/remera02.jpg",
+    "code": "C005",
+    "stock": 100,
+    "id": 5
+  },
+  {
+    "title": "Remera Ceibo",
+    "description": "remera de algodon cadenas",
+    "price": 10000,
+    "thumbnail": "ruta/remera03.jpg",
+    "code": "C006",
+    "stock": 100,
+    "id": 6
+  },
+  {
+    "title": "Pantalon Eclipse",
+    "description": "Pantalon oversise",
+    "price": 40000,
+    "thumbnail": "ruta/pantalon01.jpg",
+    "code": "C007",
+    "stock": 100,
+    "id": 7
+  },
+  {
+    "title": "Pantalon Nebula",
+    "description": "Pantalon tiro alto",
+    "price": 40000,
+    "thumbnail": "ruta/pantalon02.jpg",
+    "code": "C008",
+    "stock": 100,
+    "id": 8
+  },
+  {
+    "title": "Pantalon Fusion",
+    "description": "Pantalon oxford bicolor",
+    "price": 40000,
+    "thumbnail": "ruta/pantalon03.jpg",
+    "code": "C009",
+    "stock": 100,
+    "id": 9
+  }
+]

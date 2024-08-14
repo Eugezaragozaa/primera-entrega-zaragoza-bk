@@ -1,7 +1,12 @@
-const fs = require('fs');
-const path = require('path');
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
 
-class ProductManager{
+// Obtiene el directorio del archivo actual
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+class ProductManager {
     constructor() {
         this.products = [];
         this.cargarProductos();
@@ -76,7 +81,7 @@ class ProductManager{
     }
 
     obtenerProductoPorId(id) {
-        let product = this.productos.find(producto => producto.id === id);
+        let product = this.products.find(producto => producto.id === id);
         if (!product) {
             return null;
         }
@@ -100,6 +105,4 @@ class ProductManager{
     }
 }
 
-module.exports = ProductManager;
-
-
+export default ProductManager;
